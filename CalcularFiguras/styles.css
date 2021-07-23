@@ -1,0 +1,111 @@
+*{
+    margin: 0cm;
+    padding: 0cm;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color:rgba(219, 168, 0, 0.781);
+}
+
+
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 7rem;
+    background-color: goldenrod;
+    font-size: 3rem;
+}
+
+header p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.cuadrado-container, .triangulo-container, .circulo-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 20rem;
+    padding: 1.2rem;
+    background-color:gold;
+    border-radius: 2rem;
+}
+
+.cuadrado-container{
+    margin-top: 15rem;
+}
+
+section div h2{
+    width: 35rem;
+    margin: 1.5rem 1rem 2rem 1rem;
+    text-align:center;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35rem;
+}
+
+label{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+input{
+    width: 15rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    background-color: black;
+    text-align: center;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+button{
+    justify-content: center;
+    margin: 1.4rem 0.5rem 0.2rem 0.5rem;
+    width: 35rem;
+    background-color: goldenrod;
+    border: 3px solid goldenrod;
+    border-radius: 1rem;
+    color: white;
+}
+
+button:hover{
+    background-color: gold;
+    color: black;
+}
