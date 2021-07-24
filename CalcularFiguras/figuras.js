@@ -12,14 +12,14 @@ var ladoCuadrado = 0;
 
 var perimetroCuadrado = function(lado){
     let perimetro = lado*4;
-    return 'El perimetro del cuadrado es de ' + perimetro + ' cm .'
+    return 'El perimetro del cuadrado es de ' + perimetro + ' cm'
 }
 
 //calcular area
 
 function areaCuadrado(lado){
     let area = lado*lado;
-    return 'El area del cuadrado es de ' + area + ' cm .'
+    return 'El area del cuadrado es de ' + area + ' cm'
 }
 
 console.log(perimetroCuadrado(ladoCuadrado));
@@ -43,14 +43,14 @@ var alturaTriangulo = 0;
 
 function perimetroTriangulo(lado1,lado2,base){
     let perimetro = lado1 + lado2 + base;
-    return 'El perimetro del triangulo es de ' + perimetro + ' cm .'
+    return 'El perimetro del triangulo es de ' + perimetro + ' cm'
 }
 
 //calcular area
 
 function areaTriangulo(base, altura){
     let area = base*altura;
-    return 'El area del triangulo es de ' + area + ' cm .'
+    return 'El area del triangulo es de ' + area + ' cm'
 }
 
 console.log(perimetroTriangulo(ladoTriangulo1,ladoTriangulo2,baseTriangulo));
@@ -76,7 +76,7 @@ function diametroDelCirculo(radio){
 
 var diametroDelCirculoVar = diametroDelCirculo(radioCirculo);
 
-var diametroDelCirculoCom = `El diametro del circulo es de ${diametroDelCirculo(radioCirculo)} cm.`;
+var diametroDelCirculoCom = `El diametro del circulo es de ${diametroDelCirculo(radioCirculo)} cm`;
 
 
 //calcular perimetro
@@ -84,14 +84,14 @@ var diametroDelCirculoCom = `El diametro del circulo es de ${diametroDelCirculo(
 function perimetroCirculo(radio,pi){
     let diametro = diametroDelCirculo(radio);
     let perimetro = Math.round(diametro * pi);
-    return 'El perimetro del circulo es de aproximadamente ' + perimetro + ' cm .'
+    return 'El perimetro del circulo es de aproximadamente ' + perimetro + ' cm'
 }
 
 //calcular area
 
 function areaCirculo(pi,radio){
     let area = Math.round( pi * (radio**2));
-    return 'El area del circulo es de aproximadamente ' + area + ' cm .';
+    return 'El area del circulo es de aproximadamente ' + area + ' cm';
 }
 
 console.log(diametroDelCirculoCom);
@@ -170,7 +170,7 @@ function calcularDiametroCirculo() {
     const input = document.getElementById("inputCirculo");
     const value = input.value;
 
-    const diametro = diametroDelCirculo(value);
+    const diametro = `El diametro del circulo es de ${diametroDelCirculo(value)}cm`;
     const result = document.getElementById("resultCir");
 
     return result.innerText = diametro;
