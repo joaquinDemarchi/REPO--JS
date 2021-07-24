@@ -80,6 +80,30 @@ form {
     width: 35rem;
 }
 
+div .circulo-container--resultado, .triangulo-container--resultado, .cuadrado-container--resultado{
+    width: 30rem;
+    height: 8rem;
+    text-align: center;
+    margin: 1.4rem;
+    background-color:goldenrod;
+    border-radius: 2rem;
+}
+
+.circulo-container--resultado, .triangulo-container--resultado, .cuadrado-container--resultado p{
+    font-size: 2rem;
+}
+
+#resultCua, #resultTri, #resultCir{
+    color: aliceblue;
+    text-align:center ;
+    padding: .3rem 3rem 0 3rem ;
+    font-size: 1.8rem;
+}
+
+#resultCir{
+    padding: .3rem 2rem 0 2rem ;
+}
+
 label{
     padding: 1rem;
     font-size: 1.2rem;

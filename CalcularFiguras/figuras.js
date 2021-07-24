@@ -111,7 +111,9 @@ function calcularPerimetroCuadrado() {
     const value = input.value;
 
     const perimetro = perimetroCuadrado(value);
-    alert(perimetro);
+    const result = document.getElementById("resultCua");
+
+    return result.innerText = perimetro;
 }
 
 function calcularAreaCuadrado() {
@@ -119,8 +121,12 @@ function calcularAreaCuadrado() {
     const value = input.value;
 
     const area = areaCuadrado(value);
-    alert(area);
+    const result = document.getElementById("resultCua");
+
+    return result.innerText = area;
 }
+
+//calcular perimetro y area de triangulo
 
 function calcularPerimetroTriangulo(){
 
@@ -135,7 +141,9 @@ function calcularPerimetroTriangulo(){
 
     const perimetro = perimetroTriangulo(value1,value2,value3);
 
-    alert(perimetro);
+    const result = document.getElementById("resultTri");
+
+    return result.innerText = perimetro;
 }
 
 function calcularAreaTriangulo(){
@@ -151,7 +159,9 @@ function calcularAreaTriangulo(){
 
     const area = areaTriangulo(value1,value2,value3);
 
-    alert(area);
+    const result = document.getElementById("resultTri");
+
+    return result.innerText = area;
 }
 
 //Calcular diametro, perimetro y area del circulo
@@ -161,7 +171,9 @@ function calcularDiametroCirculo() {
     const value = input.value;
 
     const diametro = diametroDelCirculo(value);
-    alert("El diametro del circulo es de " + diametro + " cm.");
+    const result = document.getElementById("resultCir");
+
+    return result.innerText = diametro;
 }
 
 function calcularPerimetroCirculo() {
@@ -169,7 +181,9 @@ function calcularPerimetroCirculo() {
     const value = input.value;
 
     const perimetro = perimetroCirculo(value,PI);
-    alert(perimetro);
+    const result = document.getElementById("resultCir");
+
+    return result.innerText = perimetro;
 }
 
 function calcularAreaCirculo() {
@@ -177,5 +191,7 @@ function calcularAreaCirculo() {
     const value = input.value;
 
     const area = areaCirculo(PI,value);
-    alert(area);
+    const result = document.getElementById("resultCir");
+
+    return result.innerText = area;
 }
