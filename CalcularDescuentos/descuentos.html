@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/CalcularDescuentos/descuentos.css">
+    <title>Descuentos</title>
 </head>
 <body>
 
-    <h1>Descuentos y porcentajes</h1>
+    <h1>Calculadora de descuentos</h1>
 
     <section>
-        <h2></h2>
         <form action="">
+
+            <h2>Calculadora de descuentos</h2>
+            
             <label for="InputPrice">Escribe el precio del producto:
             </label>
             <input type="number" id="InputPrice">
@@ -22,7 +25,10 @@
             <button type="button" onclick="CalcularDescuento()">
                 Calcular precio con descuento
             </button>
-
+            <div class="caja-resultado">
+                <p class="caja-resultado--mensaje">Resultado</p>
+                <p id="resultPrice"></p>
+            </div>
             <p id="resultPrice"></p>
         </form>
     </section>

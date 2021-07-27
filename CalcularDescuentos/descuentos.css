@@ -1,0 +1,133 @@
+*{
+    margin: 0cm;
+    padding: 0cm;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color:rgb(165, 124, 212);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(77, 10, 153);
+    font-size: 3rem;
+    box-shadow: 0px 10px 25px -10px rgba(0,0,0,0.5);
+
+}
+
+header p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40rem;
+    margin-top: 3rem;
+    background-color: blueviolet;
+    border-radius: 2rem;
+    box-shadow: 0px 20px 25px -10px rgba(0,0,0,0.5);
+}
+
+form h2{
+    font-size: 2rem;
+    margin: 2.4rem 0 1rem 0;
+}
+
+form label{
+    width: 36rem;
+    padding: 1rem;
+    margin: 3rem 0 1rem 0 ;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+input{
+    width: 15rem;
+    max-height: 2rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    background-color: rgb(192, 167, 221);
+    text-align: center;
+    color: rgb(77, 10, 153);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#InputDiscount{
+    margin-bottom: 3rem;
+}
+
+button{
+    justify-content: center;
+    margin: 2.5rem 0.5rem 0.2rem 0.5rem;
+    width: 30rem;
+    height: 5rem;
+    background-color: rgb(0, 102, 255);
+    border: 3px solid rgb(0, 102, 255);
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: rgb(192, 167, 221);
+    border: 3px solid rgb(192, 167, 221);
+    color: black;
+}
+
+.caja-resultado{
+    width: 30rem;
+    height: 8rem;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(77, 10, 153);
+}
+
+.caja-resultado--mensaje{
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+#resultPrice {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
