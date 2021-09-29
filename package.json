@@ -4,7 +4,8 @@
   "description": "Trabajar con callbacks y promesas ",
   "main": "src/index.js",
   "scripts": {
-    "callback": "node src/callback/index.js" 
+    "callback": "node src/callback/index.js",
+    "callback:challange": "node src/callback/challange.js"
   },
   "keywords": [
     "callbacks",
@@ -12,5 +13,8 @@
     "async"
   ],
   "author": "Joaquin Demarchi",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
