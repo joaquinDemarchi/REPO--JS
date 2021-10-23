@@ -42,3 +42,20 @@ Promise.all([somethingWillHappen(),somethingWillHappen2()])
         console.log('Array of results',response)
     })
     .catch(err => console.error(err));
+
+
+
+
+    const pruebaLibreDePromise = () => {
+        return new Promise ((resolve,reject) => {
+            if (true){
+                resolve('BIEN');
+            } else {
+                reject('MAL');
+            }
+        });
+    }
+
+    pruebaLibreDePromise()
+    .then(response => console.log(response))
+    .catch(reject => console.log(reject))
